@@ -83,7 +83,7 @@ section {
     margin: auto;
     padding-right: 0 !important;
     padding-left: 0 !important;
-    background-image: url("ptr2.png");
+    background-image: url("/pictures/ptr2.png");
     background-repeat: repeat;
 }
 
@@ -286,7 +286,7 @@ form {
     width: 100vw;
     height: auto;
 
-    background-image: url("ptr.png");
+    background-image: url("/pictures/ptr.png");
     background-repeat: repeat;
 }
 
