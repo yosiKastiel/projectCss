@@ -1,0 +1,493 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    text-align: center;
+}
+
+
+
+.newImg {
+    min-width: 100%;
+    height: 100vh;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.842);
+    border-radius: 25px;
+    padding: 20px;
+}
+
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+    background-color: #f2cc0f;
+    z-index: -2;
+}
+
+
+.red {
+    background-color: #8cbf3f;
+}
+
+
+.wave4 svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+
+}
+
+.wave4 .shape-fill {
+    fill: #9453A6;
+}
+
+.wave2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave2 .shape-fill {
+    fill: #8cbf3f;
+}
+
+.card {
+    margin: auto;
+    display: block !important;
+}
+
+
+
+.container {
+    margin: auto;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    background-image: url("ptr2.png");
+    background-repeat: repeat;
+}
+
+.mob1 {
+    display: none;
+}
+
+
+
+.nav-item {
+    text-align: center;
+    font-size: 22px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.r {
+    margin-top: 20px;
+    margin-bottom: -70px;
+    color: #8cbf3f;
+    font-size: 2em;
+    width: 100vw;
+    text-align: center;
+    border: 4px solid #9453a6;
+    background-color: #9453a6;
+    border-radius: 20px;
+}
+
+ul {
+    margin: auto;
+    justify-content: space-between;
+}
+
+.nav-item:hover .btn {
+    background-color: #f2cc0f;
+    transition: all ease-in-out 0.3s;
+}
+
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+    fill: #8CBF3F;
+}
+
+
+.wave3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
+
+.wave3 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.wave3 .shape-fill {
+    fill: #9453A6;
+
+}
+
+.foo {
+    width: 60vw;
+    margin: auto;
+    margin-top: 5px;
+
+}
+
+.containery {
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+.okl {
+    margin: auto;
+}
+
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.rowy:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.space {
+    display: block;
+    width: 100vw;
+    height: 30px;
+    background-color: #fff;
+}
+
+.irame {
+
+    text-align: center;
+}
+
+.me {
+    background-color: #9453a6f0;
+    padding: 10px;
+    margin: auto;
+    border: 3px solid #8cbf3f;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 60vw;
+    height: 63vw;
+}
+
+.inp {
+    margin-top: 5px;
+    width: 170px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+form {
+    border: 5px dotted #f2cc0f;
+    width: 100vw;
+    height: auto;
+
+    background-image: url("ptr.png");
+    background-repeat: repeat;
+}
+
+.mr {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    width: 100vw;
+    background-color: #9453a6a2;
+
+}
+
+
+textarea {
+    border-radius: 5px;
+    border: 3px solid #f2cc0f;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    width: 55vw;
+    height: 45vw;
+    resize: none !important;
+}
+
+
+
+input::placeholder {
+    color: transparent;
+}
+
+textarea::placeholder {
+    color: transparent;
+}
+
+h1 {
+    font-family: 'Pattaya';
+}
+
+h5 {
+    font-family: 'Henny Penny';
+}
+
+.error {
+    display: block;
+}
+
+#btn1 {
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #9453a6;
+    border: 1px solid black;
+    width: 350px;
+    height: 45px;
+    grid-row: auto;
+}
+
+#btn1:hover {
+    background-color: #673874;
+}
+
+#btn1:active {
+    outline: 3px solid rgba(0, 0, 255, 0.34);
+}
+
+.mh {
+    text-align: center;
+
+}
+
+.custom-shape-divider-top-1656264095 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1656264095 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-top-1656264095 .shape-fill {
+    fill: #f2cc0f;
+}
+
+
+.the {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+span {
+    border-radius: 5px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+@media all and (max-width:480px) {
+    .foo {
+        width: 80vw;
+    }
+
+    .met {
+        margin-top: 15px;
+
+    }
+
+    #btn1 {
+        width: 65vw;
+    }
+
+    input::placeholder {
+        color: black;
+    }
+
+    textarea::placeholder {
+        color: black;
+    }
+
+    p.wa {
+        width: 95vw;
+    }
+
+    form {
+        width: 100vw;
+        height: 44em;
+    }
+
+    .lable {
+        display: none;
+    }
+
+    .me {
+        width: 75vw;
+        height: 42em;
+    }
+
+    textarea {
+        width: 65vw;
+        height: 22em;
+    }
+
+    iframe {
+
+        width: 90vw;
+        height: 60vw;
+
+    }
+
+    .roo p {
+        width: 95vw;
+    }
+
+
+    .nav-item {
+        margin: 10px;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+
+    .mob1 {
+        display: block;
+    }
+
+    .mob {
+        width: 100%;
+        height: auto;
+    }
+
+    .nes {
+        display: none;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+
+    .card {
+        margin: auto;
+    }
+
+    .row {
+        padding: 0px !important;
+        overflow-y: auto;
+    }
+
+    .mig {
+        padding-right: 0;
+        overflow: inherit;
+    }
+
+
+}
