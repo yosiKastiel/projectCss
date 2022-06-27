@@ -12,7 +12,13 @@ header {
     text-align: center;
 }
 
+.accordion-item h2 {
+    font-family: 'Henny Penny';
+}
 
+.accordion-item {
+    font-family: 'Roboto', sans-serif;
+}
 
 .newImg {
     min-width: 100%;
@@ -391,7 +397,24 @@ span {
     margin-top: 5px;
 }
 
+.lable {
+    font-family: 'Henny Penny';
+}
+
+
+.hand {
+    display: none;
+}
+
 @media all and (max-width:480px) {
+    .hand2 {
+        display: none;
+    }
+
+    .hand {
+        display: inline;
+    }
+
     .foo {
         width: 80vw;
     }
@@ -424,6 +447,7 @@ span {
 
     .lable {
         display: none;
+
     }
 
     .me {

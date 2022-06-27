@@ -12,7 +12,7 @@ const btn = document.getElementById('btn1');
 btn.addEventListener('click', function () {
 
     if (text.value == '') {
-        error3.innerHTML = '*Please enter your feedback';
+        error3.innerHTML = '&#128071;*Please enter your feedback&#128071;';
         text.style.border = '3px solid red';
         text.focus();
     } else if (text.value !== '') {
@@ -20,7 +20,7 @@ btn.addEventListener('click', function () {
         text.style.border = 'none';
     }
     if (uemail.value === '' || uemail.value.indexOf('@') == -1 || uemail.value.indexOf('.') == -1) {
-        error2.innerHTML = '*please enter Email';
+        error2.innerHTML = '<span class="hand2">&#9756;</span><span class="hand">&#128070;</span>*please enter Email';
         uemail.style.border = '3px solid red';
         uemail.focus();
 
@@ -29,7 +29,7 @@ btn.addEventListener('click', function () {
         uemail.style.border = 'none';
     }
     if (uname2.value == '') {
-        error1.innerHTML = '*please enter Last Name';
+        error1.innerHTML = '<span class="hand2">&#9756;</span><span class="hand">&#128070;</span>*please enter Last Name';
         uname2.style.border = '3px solid red';
         uname2.focus();
     } else if (uname2.value !== '') {
@@ -38,7 +38,7 @@ btn.addEventListener('click', function () {
 
     }
     if (uname.value == '') {
-        error.innerHTML = '*please enter First Name ';
+        error.innerHTML = '<span class="hand2">&#9756;</span><span class="hand">&#128070;</span>*please enter First Name ';
         uname.style.border = '3px solid red';
         uname.focus();
     } else if (uname.value !== '') {
